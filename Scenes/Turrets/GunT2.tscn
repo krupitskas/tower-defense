@@ -6,14 +6,16 @@
 [node name="GunT2" type="Node2D"]
 
 [node name="Base" type="Sprite" parent="."]
+position = Vector2( 32, 32 )
 texture = ExtResource( 2 )
 
 [node name="Turret" type="Sprite" parent="."]
+position = Vector2( 32, 32 )
 texture = ExtResource( 1 )
-offset = Vector2( 0, -12 )
+offset = Vector2( 12, 0 )
 
 [node name="Muzzle1" type="Position2D" parent="Turret"]
-position = Vector2( -7, -43 )
+position = Vector2( 42, -6 )
 
 [node name="Muzzle2" type="Position2D" parent="Turret"]
-position = Vector2( 7, -43 )
+position = Vector2( 42, 7 )
